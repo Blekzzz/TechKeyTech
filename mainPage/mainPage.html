@@ -38,17 +38,21 @@
             <div class="card-body">
               <h5 class="card-title">Classic Keyboard</h5>
               <h6>Rp 150,000,00</h6>
-              <p class="card-text">A classic style keyboard, with normal keycaps.</p>
+              <p class="card-text">A classic style keyboard with Vanilla membrane SwitchKey</p>
 
-              <label for="cars">Choose your switch</label>
-              <select name="cars" id="cars">
-                <option value="Red">Red</option>
-                <option value="Blue">Blue</option>
-                <option value="Brown">Brown</option>
+              <!-- <label for="switchKey">Choose your switch</label>
+              <select name="switchKey" id="switchKeyList">
+                <option value="zero" style="display: none;">---Choose your SwitchKey---</option>
+                <option value="nonSwitch">Vanilla Switch</option>
+                <option value="red">Red Switch</option>
+                <option value="blue">Blue Switch</option>
+                <option value="brown">Brown Switch</option>
               </select>
-              <br><br>
+              <br><br> -->
 
               <button type="button" class="btn btn-dark">Buy</button>
+              <button type="button" class="btn btn-dark" id="soundBtnClassic">Play the KeySwitch Audio!</button>
+              
             </div>
           </div>
         </div>
@@ -58,17 +62,20 @@
             <div class="card-body">
               <h5 class="card-title">Mechanical Keyboard</h5>
               <h6>Rp 350,000,00</h6>
-              <p class="card-text">Mechanical Keyboard has a different keycaps with classic keyboard. The sound is has the different sound too.</p>
+              <p class="card-text"  id="itemTxt">Mechanical Keyboard has a different keycaps with classic keyboard.</p>
             
-              <label for="cars">Choose your switch</label>
-              <select name="cars" id="cars">
-                <option value="Red">Red</option>
-                <option value="Blue">Blue</option>
-                <option value="Brown">Brown</option>
+              <label for="switchKey">Choose your switch</label>
+              <select name="switchKey" id="switchKeyList">
+                <option value="zero" style="display: none;">---Choose your SwitchKey---</option>
+                <!-- <option value="nonSwitch">Vanilla Switch</option> -->
+                <option value="red">Red Switch</option>
+                <option value="blue">Blue Switch</option>
+                <option value="brown">Brown Switch</option>
               </select>
               <br><br>
 
               <button type="button" class="btn btn-dark">Buy</button>
+              <button type="button" class="btn btn-dark" id="soundBtn">Play the KeySwitch Audio!</button>
             </div>
           </div>
         </div>
@@ -78,11 +85,18 @@
             <div class="card-body">
               <h5 class="card-title">Special Edition Keyboard</h5>
               <h6>Rp 500,000,00</h6>
-              <p class="card-text">The special edition keyboard, it used keycaps with our special calibrated edition. The sound is very special, made for u all who deserved.</p>
+              <p class="card-text">The special edition keyboard, it used keycaps with our special calibrated edition. The sound of the key pressed is very very special, made for all who deserved.</p>
 
               <button type="button" class="btn btn-dark">Buy</button>
+              <button type="button" class="btn btn-dark" id="soundBtn">Play the KeySwitch Audio!</button>
+              <audio id="blueSound"><source src="../assets/keySound/blueSwitches.mp3" type="audio/mpeg"></audio>
+              <audio id="redSound"><source src="../assets/keySound/redSSwitches.mp3" type="audio/mpeg"></audio>
+              <audio id="brownSound"><source src="../assets/keySound/brownSwitches.mp3" type="audio/mpeg"></audio>
+              <audio id="normalSound"><source src="../assets/keySound/membraneSwitch.mp3" type="audio/mpeg"></audio>
+              
             </div>
           </div>
         </div>
+        <script src="mainPage.js"></script>
 </body>
 </html>
