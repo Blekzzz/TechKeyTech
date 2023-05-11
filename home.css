@@ -5,3 +5,24 @@ body {
 .navbar {
     background-color: #577D86;
 }
+
+.logo {
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+  }
+
+.continue-shopping {
+    margin: auto;
+    width: 50%;
+    padding-top: 50px;
+}
+
+.zoom {
+    transition: transform .2s; 
+    margin: 0 auto;
+  }
+
+.zoom:hover {
+    transform: scale(1.5)
+}

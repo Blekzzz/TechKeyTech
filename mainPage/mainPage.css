@@ -1,7 +1,19 @@
+body {
+    background-color: #569DAA
+}
+
 .navbar {
     background-color: #577D86;
 }
 
 .card {
     size: 5000px
+}
+
+.zoom {
+    transition: transform .2s; /* Animation */
+  }
+
+.zoom:hover {
+    transform: scale(1.2)
 }
