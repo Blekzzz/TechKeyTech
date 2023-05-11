@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <link rel="stylesheet" href="mainPage.css">
-    <title>Main Page</title>
+    <title>Choose Your KeyTech</title>
 </head>
 <body>
     <!-- Navbar -->
@@ -30,7 +30,7 @@
       </div>
     </nav>
 
-    <!-- Card -->
+    <!-- Card 1 -->
     <div class="row row-cols-1 row-cols-md-3 g-4 pt-5 me-3 ms-3">
         <div class="col">
           <div class="card">
@@ -39,19 +39,25 @@
               <h5 class="card-title">Classic Keyboard</h5>
               <h6>Rp 150,000,00</h6>
               <p class="card-text">A classic style keyboard, with normal keycaps.</p>
-
-              <label for="cars">Choose your switch</label>
-              <select name="cars" id="cars">
+              
+              <!-- chose switch -->
+              <label for="switch">Choose your switch</label>
+              <select name="switch" id="switch">
                 <option value="Red">Red</option>
                 <option value="Blue">Blue</option>
                 <option value="Brown">Brown</option>
               </select>
+              <p id="switchChange">xxx</p>
               <br><br>
-
               <button type="button" class="btn btn-dark">Buy</button>
             </div>
           </div>
+          <div class="d-flex justify-content-center mt-lg-4">
+            <button type="button" class="classicSound btn btn-light">Classic Sound</button>
+          </div>
         </div>
+        
+        <!-- card 2 -->
         <div class="col">
           <div class="card">
             <img src="../assets/MechanicalKeyboard.png" alt="...">
@@ -59,19 +65,24 @@
               <h5 class="card-title">Mechanical Keyboard</h5>
               <h6>Rp 350,000,00</h6>
               <p class="card-text">Mechanical Keyboard has a different keycaps with classic keyboard. The sound is has the different sound too.</p>
-            
-              <label for="cars">Choose your switch</label>
-              <select name="cars" id="cars">
+              <!-- choose switcih -->
+              <label for="switch">Choose your switch</label>
+              <select name="switch" id="switch">
                 <option value="Red">Red</option>
                 <option value="Blue">Blue</option>
                 <option value="Brown">Brown</option>
               </select>
+              <p id="switchChange">xxx</p>
               <br><br>
-
               <button type="button" class="btn btn-dark">Buy</button>
             </div>
           </div>
+          <div class="d-flex justify-content-center mt-lg-4">
+            <button type="button" class="mechanicalSound btn btn-light">Mechanical Sound</button>
+          </div>
         </div>
+
+        <!-- card 3 -->
         <div class="col">
           <div class="card">
             <img src="https://cdn.shopify.com/s/files/1/0508/6747/0494/products/pdp_gallery_01_main_3448edbd-c4fb-429f-aa2f-46fe31beb028_large@2x.png?v=1631883580" class="card-img-top" alt="...">
@@ -82,6 +93,9 @@
 
               <button type="button" class="btn btn-dark">Buy</button>
             </div>
+          </div>
+          <div class="d-flex justify-content-center mt-lg-4">
+            <button type="button" class="specialButton btn btn-light">Special Sound</button>
           </div>
         </div>
 </body>
