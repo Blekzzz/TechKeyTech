@@ -1,6 +1,12 @@
-var modal = document.getElementById("myModal");
-var btn = document.getElementById("myBtn");
-var span = document.getElementsByClassName("close")[0];
+const modal = document.getElementById("myModal");
+const btn = document.getElementById("myBtn");
+const span = document.getElementsByClassName("close")[0];
+
+function deleteCart () {
+  const element = document.getElementById("cart1")
+  element.remove()
+}
+
 
 btn.onclick = function() {
   modal.style.display = "block";
