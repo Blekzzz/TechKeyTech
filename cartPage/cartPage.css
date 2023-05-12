@@ -1,0 +1,22 @@
+body {
+    background-color: #569DAA;
+    font-family: serif;
+}
+
+.heading {
+    padding-top: 5%;
+}
+
+.card-body {
+  float: right;
+  text-align: right;
+}
+
+.zoom {
+    transition: transform .2s; 
+    margin: 0 auto;
+  }
+
+.zoom:hover {
+    transform: scale(1.2);
+}
