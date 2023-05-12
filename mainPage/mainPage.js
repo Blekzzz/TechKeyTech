@@ -5,6 +5,7 @@ let blueSound = document.getElementById("blueSound");
 let redSound = document.getElementById("redSound");
 let brownSound = document.getElementById("brownSound");
 let normalSound = document.getElementById("normalSound");
+let specialSound = document.getElementById("specialSound")
 let switchTerpilih = document.getElementById("switchKeyList");
 let itemText = document.getElementById("itemTxt");
 let defaultText = itemText.innerText;
