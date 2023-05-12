@@ -1,7 +1,21 @@
 body {
-    background-color: #569DAA;
-    font-family: serif;
+  font-family: serif;
+  min-height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/Banner.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
 }
+body {
+  min-height: 100vh;
+  width: 100%;
+  background-image: radial-gradient(rgba(4,9,30,0.7),rgba(4,9,30,0.7)),url(../Images/Banner.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+}
+
 
 .heading {
     padding-top: 2%;
@@ -19,4 +33,8 @@ body {
 
 .zoom:hover {
     transform: scale(1.2);
+}
+
+#yourCart {
+  color: antiquewhite;
 }
